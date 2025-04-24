@@ -37,6 +37,7 @@ Create a `.github/workflows/main.yml` to:
 ```bash
 nodejs-app/
 ├── app.js
+├── deployment.yaml
 ├── package.json
 ├── test/
 │   └── app.test.js
