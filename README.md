@@ -28,6 +28,7 @@ Create a `.github/workflows/main.yml` to:
 4. GitHub Secrets configured:
    - `DOCKERHUB_USERNAME`
    - `DOCKERHUB_TOKEN`
+   - 'KUBE_CONFIG'
 
 ---
 
