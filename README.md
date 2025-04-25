@@ -239,9 +239,10 @@ CMD ["node", "app.js"]
 
 ## 🧪 2. Unit Test: `test/app.test.js`
 A file that contains tests (e.g., using Jest) to validate that your app logic works.  
+GitHub Actions and most CI tools expect at least one test. This prevents failure due to “no tests found.”  
 ✅ Why it matters:  
-- Catches bugs early in the development process.
-- Automatically run during CI (GitHub Actions).
+ - Catches bugs early in the development process.
+ - Automatically run during CI (GitHub Actions).
  - Ensures your code is correct before it's deployed.
 
 
